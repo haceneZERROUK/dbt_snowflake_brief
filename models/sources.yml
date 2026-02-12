@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: nyc_taxi
+    description: "Données brutes NYC Taxi"
+    database: NYC_TAXI_DB
+    schema: RAW
+    tables:
+      - name: yellow_taxi_trips
+        description: "Trajets Yellow Taxi bruts"
+
